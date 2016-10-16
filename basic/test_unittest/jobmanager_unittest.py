@@ -4,12 +4,12 @@
 # 	This program is to do unittest for jobmanager
 # History:
 # 	Created Time: 2016-10-15
-# Author: ddeng 	E-mail: dongping.deng@asml.com
+# Author: Don 	E-mail: dpdeng@whu.edu.cn
 #########################################################################
 import unittest
 import jobmanager
 
-class JobManager_Unittest(unittest.TestCase):
+class JobManager_UnitTest(unittest.TestCase):
 
     def test_setTasks(self):
         jm = jobmanager.JobManager(max_processes_num=6)
@@ -56,12 +56,12 @@ class JobManager_Unittest(unittest.TestCase):
 
 def fullSuite():
     suite=unittest.TestSuite()
-    suite.addTest(unittest.TestLoader().loadTestsFromTestCase(JobManager_Unittest))
+    suite.addTest(unittest.TestLoader().loadTestsFromTestCase(JobManager_UnitTest))
     return suite
 
 def partSuite():
     suite=unittest.TestSuite()
-    suite.addTest(JobManager_Unittest("test_getResult"))
+    suite.addTest(JobManager_UnitTest("test_getResult"))
     return suite
 
 if __name__ == '__main__':

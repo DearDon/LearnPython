@@ -4,7 +4,7 @@
 # 	This program is to manage multi-process job
 # History:
 # 	Created Time: 2016-09-19
-# Author: ddeng 	E-mail: dongping.deng@asml.com
+# Author: Don 	E-mail: dpdeng@whu.edu.cn
 #########################################################################
 import subprocess
 import multiprocessing

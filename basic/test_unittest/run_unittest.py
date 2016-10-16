@@ -4,7 +4,7 @@
 # 	This program is to run all unittest for whole project
 # History:
 # 	Created Time: 2016-10-15
-# Author: ddeng 	E-mail: dongping.deng@asml.com
+# Author: Don 	E-mail: dpdeng@whu.edu.cn
 #########################################################################
 import unittest
 import jobmanager_unittest
