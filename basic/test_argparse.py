@@ -13,4 +13,4 @@ answer=list[0]**list[1]
 if args.verbosity==1:
     print"the number {0} power {1} is {2}".format(list[0], list[1], answer)
 else:
-    print(answer) 
+    print(answer)
