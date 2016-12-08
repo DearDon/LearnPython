@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <ns2:session name="" xmlns:ns2="http://www.asml.com/pwo/mdp/mdp_session" xmlns:ns4="http://www.asml.com/pwo/mdp/process_setup" xmlns:ns3="http://www.asml.com/pwo/mdp/reticle_setup">
     <description>test</description>
-    <description>test1</description>
     <reticle>
         <reticle_id>SN2</reticle_id>
         <image>
